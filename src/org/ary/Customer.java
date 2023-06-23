@@ -1,23 +1,36 @@
 package org.ary;
 
+import java.util.Arrays;
+
 public class Customer {
 	public static void main(String[] args) {
-		int a[]= new int[3];
-		a[0]=10;
-		a[1]=20;
-		a[2]=30;
 		
-		int length = a.length;
-		System.out.println(length);
-		System.out.println(a[2]);
+		int [] a= {10,30,50,40,70};
+		
 		for (int i = 0; i < a.length; i++) {
-			System.out.println(a[i]);
+			
+			for (int j = i+1; j < a.length; j++) {
+				
+				if (a[i]>a[j]) {
+					
+					int temp=a[i];
+					a[i]=a[j];
+					a[j]=temp;
+					
+					
+				}
+				
+			}
+			
 		}
+		
 		for (int i : a) {
-			System.out.println(i);
-			
+			System.out.println();
 		}
-			
+		
+		
+		
+		
 			
 		}
 		
