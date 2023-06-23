@@ -23,12 +23,14 @@ public class Customer {
 			}
 			
 		}
+
 		
 	System.out.println(Arrays.toString(a));
+
 		
 			
 		}
 		
-	}
+	
 
 
