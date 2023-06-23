@@ -13,14 +13,23 @@ public class Customer {
 		for (int i = 0; i < a.length; i++) {
 			System.out.println(a[i]);
 		}
+<<<<<<< Updated upstream
 		for (int i : a) {
 			System.out.println(i);
 			
+=======
+		
+		for (int i = 0; i < a.length; i++) {
+			
+			System.out.println(a[i]);
+			
+		}
+>>>>>>> Stashed changes
 		}
 			
 			
 		}
 		
-	}
+	
 
 
