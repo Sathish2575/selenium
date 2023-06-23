@@ -24,12 +24,7 @@ public class Customer {
 			
 		}
 		
-		for (int i : a) {
-			System.out.println();
-		}
-		
-		
-		
+	System.out.println(Arrays.toString(a));
 		
 			
 		}
